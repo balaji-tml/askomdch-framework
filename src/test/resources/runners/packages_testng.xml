@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+    <test name="Register User Test">
+        <packages>
+            <package name="com.bit.pom.testcase"/>
+        </packages>
+    </test>
+</suite>
