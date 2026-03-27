@@ -1,7 +1,7 @@
 package com.bit.pom.base;
 
 import com.beust.jcommander.Parameter;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -27,12 +27,12 @@ public class BaseTest {
             switch(DriverType.valueOf(browser))
             {
                 case CHROME -> {
-                    WebDriverManager.chromedriver().setup();
+                    
                     driver = new ChromeDriver();
                 }
 
                 case EDGE -> {
-                    WebDriverManager.edgedriver().setup();
+                    
                     driver = new EdgeDriver();
                 }
 
