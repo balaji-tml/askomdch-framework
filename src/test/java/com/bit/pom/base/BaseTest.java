@@ -20,7 +20,7 @@ public class BaseTest {
     @BeforeSuite
     public void startDriver()
     {
-        String browser = "EDGE";
+        String browser = "CHROME";
 
         if(driver == null) {
 
